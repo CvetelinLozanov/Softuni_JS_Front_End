@@ -4,7 +4,7 @@ function solve() {
     const resultEl = document.querySelector('#result');
 
     switch (convertTo) {
-        case binary:
+        case 'binary':
             resultEl.value = input.toString(2);
             break;
         
